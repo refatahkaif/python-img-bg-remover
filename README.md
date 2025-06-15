@@ -23,7 +23,7 @@ python img-bg-remover.py
 from rembg import remove
 from PIL import Image
 
-input_path = 'cl.jpg'
+input_path = './photo.png'
 output_path = 'output.png'
 
 input = Image.open(input_path)
